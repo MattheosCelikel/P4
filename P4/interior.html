@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Interior Page</title>
+</head>
+<body>
+    <header>
+        <h1>Mattheos' Webpage</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#">Menu</a>
+                <ul class="dropdown-content">
+                    <li><a href="interior.html">Interior</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Thank you Professor Chiusano</h2>
+        <p>I want to sincerely thank you for your unwavering support and guidance throughout this semester. Your investment in my career development, especially in helping me explore job opportunities during college, has been incredibly impactful, and I’m truly grateful. Your kindness and flexibility with my schedule, understanding the challenges of balancing work and academics, made a significant difference and allowed me to stay on top of my commitments. I deeply appreciate your encouragement and the time you’ve taken to help me grow professionally and personally.</p>
+        <p></p>
+        <p></p>
+        <p>Sincerely, Mattheos Celikel</p>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Mattheos Celikel. All rights reserved.</p>
+        <ul>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Statement</a></li>
+        </ul>
+    </footer>
+
+    <script>
+        document.getElementById("currentYear").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
