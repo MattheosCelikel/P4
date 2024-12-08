@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Interests</title>
+</head>
+<body>
+    <header>
+        <h1>My Interests</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#">Menu</a>
+                <ul class="dropdown-content">
+                    <li><a href="interior.html">Interior</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="interests.html">PInterests</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>My Hobbies</h2>
+        
+        <section class="hobby">
+            <h3>Video Games</h3>
+            <img src="sparking-zero.jpg" alt="Video Games" class="hobby-img">
+            <img src="fortnite.jpg" alt="Video Games" class="hobby-img">
+            <p>I enjoy playing video games, especially fihgting games and strategy games.</p>
+        </section>
+
+        <section class="hobby">
+            <h3>Camping</h3>
+            <img src="campfire.jpg" alt="Camping" class="hobby-img">
+            <img src="Resized_20191124_201351.jpg" alt="Camping" class="hobby-img">
+            <p>Camping is one of my favorite outdoor activities to relax and connect with nature. Fun fact, I am an Eagle Scout and the picture is me getting my rank.</p>
+        </section>
+
+        <section class="hobby">
+            <h3>Legos</h3>
+            <img src="Display-2.jpeg" alt="Legos" class="hobby-img">
+            <p>Building with Legos is both fun and a great collection of mine.</p>
+        </section>
+
+        <section class="hobby">
+            <h3>Cooking</h3>
+            <img src="hqdefault.jpg" alt="Cooking" class="hobby-img">
+            <img src="baklava.jpg" alt="Cooking" class="hobby-img">
+            <p>Cooking is another passion of mine, and I love experimenting with new recipes. Here are my two favorite foods from my country Armenia: Manti and Baklava</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Mattheos Celikel</p>
+        <ul>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Statement</a></li>
+        </ul>
+    </footer>
+
+    <script>
+        document.getElementById("currentYear").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
